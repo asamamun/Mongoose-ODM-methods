@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-mongoose-demo",
+  "version": "1.0.0",
+  "description": "A demo e-commerce project to learn Mongoose ODM methods with Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "demo": "node demo.js",
+    "test-api": "node api_test.js",
+    "showcase": "node MONGOOSE_METHODS_SHOWCASE.js",
+    "tour": "node PROJECT_TOUR.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
